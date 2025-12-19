@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*m
+anter no centro*/
+.silvana {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/*subtitulo*/
+.container h2 {
+    color: rgb(0, 0, 0);
+    font-family: Italic, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    white-space: nowrap;
+}
+/*titulo*/
+.container h1 {
+    color: rgb(12, 12, 15);
+    font-family: Italic, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    white-space: nowrap;
+}
+/*numero*/
+.container h3 {
+    color: rgb(12, 12, 15);
+    font-family: Italic, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.cards {
+    width: 116%;
+    background-color: rgb(2, 2, 2);
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 20px 50px 200px rgb(160, 148, 148);
+    padding: 30px;
+    margin-left: -200px;
+}
+
+.card{
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    /* imagens dentro dos cards — cantos arredondados */
+    display: block;
+    margin: 20px auto 0; /* centraliza horizontalmente e dá espaçamento superior */
+    width: 50px; /* ajuste conforme necessário */
+    height: 50px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.card img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.card-cont
+{
+padding: 16px;
+}
+.card-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Tamanhos menores para títulos e subtítulos dos cards */
+.card-subtitle {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 30px; /* menor que antes */
+}
+
+.card-title {
+    text-align: center;
+    margin-top: 12px;
+    color: #fff;
+    font-size: 20px; /* reduza aqui conforme desejar (ex: 24px, 20px) */
+}
+
+
+nav {
+    background-color: #000000;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #0a0505;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #3f3232;
+    color: #cc2222;
+    border-radius: 5px;
+}
